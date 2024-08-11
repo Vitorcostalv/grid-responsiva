@@ -8,3 +8,10 @@ body {
     height: 100vh;
     background-color: #f4f4f4;
 }
+.grid-de-precos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
