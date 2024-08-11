@@ -24,6 +24,17 @@ body {
     padding: 20px;
     text-align: center;
 }
+.basico {
+    background-color: #87ceeb; 
+}
+
+.padrao {
+    background-color: #ffa07a; 
+}
+
+.premium {
+    background-color: #20b2aa; 
+}
 
 .item-de-preco h3 {
     margin-top: 0;
