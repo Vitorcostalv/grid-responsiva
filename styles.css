@@ -1,75 +1,80 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #e6e6fa;
-}
-.grid-de-precos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-.item-de-preco {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    padding: 20px;
-    text-align: center;
-}
-.basico {
-    background-color: #cd5c5c;
-}
-
-.padrao {
-    background-color: #cd5c5c;
-}
-
-.premium {
-    background-color: #2e8b57;
-}
-
-.item-de-preco h3 {
-    margin-top: 0;
-}
-
-.item-de-preco .preco {
-    font-size: 24px;
+    background-color: #f4f4f4; 
     color: #333;
 }
 
-.item-de-preco ul {
-    list-style: none;
-    padding: 0;
-    margin: 20px 0;
+.introducao {
+    background-color: #e6e6fa; 
+    text-align: center;
+    padding: 40px 20px;
 }
 
-.item-de-preco ul li {
-    padding: 5px 0;
-    border-bottom: 1px solid #ddd;
+.introducao h1 {
+    color: #228b22; 
 }
+
+.introducao p {
+    color: #008000; 
+    font-size: 18px;
+}
+
+.grid-de-precos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item-de-preco {
+    background-color: #333; 
+    color: #fff; 
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.basico .preco {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.basico .descricao {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.porque-nos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.porque-nos ul li {
+    padding: 10px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.porque-nos ul li:first-child {
+    border-top: none;
+}
+
 .item-de-preco button {
-    background: #ff4500;
+    background-color: #32cd32;
     color: #fff;
     border: none;
     border-radius: 4px;
     padding: 10px 20px;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: background-color 0.3s;
 }
 
 .item-de-preco button:hover {
-    background: #dc143c;
-}
-@media (max-width: 768px) {
-    .item-de-preco {
-        width: 100%;
-    }
+    background-color: #228b22; 
 }
