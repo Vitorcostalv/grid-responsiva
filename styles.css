@@ -44,3 +44,22 @@ body {
     padding: 5px 0;
     border-bottom: 1px solid #ddd;
 }
+.item-de-preco button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.item-de-preco button:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .item-de-preco {
+        width: 100%;
+    }
+}
