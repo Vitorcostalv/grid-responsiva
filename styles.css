@@ -66,9 +66,8 @@ body {
 }
 
 .item-de-preco button:hover {
-    background: #0056b3;
+    background: #ff6347;
 }
-
 @media (max-width: 768px) {
     .item-de-preco {
         width: 100%;
